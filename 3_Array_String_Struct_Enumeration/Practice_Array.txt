@@ -1,0 +1,9 @@
+/*
+	Viết các CT nhập vào 1 mảng số nguyên gồm n phần tử
+	- Thêm 1 phần tử mới vào vị trí cuối của mảng và In ra các phần tử của mảng
+	- Thêm 1 phần tử mới vào vị trí thứ p (được nhập từ bàn phím) và In ra các phần tử của mảng
+	- Xóa 1 phần tử tại vị trí thứ k (do người dùng nhập) và In ra các phần tử còn lại
+	
+	Viết chương trình nhập vào 2 mảng số nguyên gồm m, n phần tử từ bàn phím. 
+	- Thực hiện gộp 2 mảng và in ra danh sách mảng đã gộp theo thứ tự tăng hoặc giảm dần
+*/
