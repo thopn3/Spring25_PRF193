@@ -1,0 +1,54 @@
+- Cấu trúc điều kiện: if, if...else, switch...case
+	=> Kiểm tra điều kiện cần thỏa mãn để thực hiện 1 task nào đó trong CT
+	+ Vd: Kiểm tra 1 số được nhập từ bàn phím, và in ra nếu số đó là
+	 	số chẵn hoặc số lẻ
+
+- Cấu trúc lặp: while, do ... while
+	=> Thực hiện lặp đi lặp lại 1 đoạn (khối) code nào đó trong CT
+	+ Vd: Đếm xem có bao nhiêu số nguyên dương đầu tiên trong 1000 số mà
+		chia hết cho số nguyên được nhập từ bàn phím
+ 
+- Cách thức tổ chức dữ liệu trong 1 chương trình:
+  + Mảng 1 chiều
+	=> Khái niệm: Mảng là 1 tập hợp hữu hạn các phần tử có cùng kiểu được tổ chức liên tục 
+		trên bộ nhớ máy tính
+	=> Tự mở rộng các hoạt động trên mảng:
+		- Nhập mảng
+		- Xuất mảng
+		- Tìm kiếm
+		- Sắp xếp (tăng hoặc giảm)
+		- Thêm (chèn) phần tử vào mảng
+		- Loại bỏ
+
+
+================== OOP ==================
+Q1. Tạo 1 class đặt tên Animal gồm các thuộc tính: name (string), age (int), sex (bool);
+    Và có 2 constructor: Animal(), Animal(string, int, bool) và các phương thức thành phần:
+
+	- setName(string): void
+	- setAge(int): void
+	- setSex(bool)
+	- getName(): string
+	- getAge():int
+	- getSex():bool
+	- display():string => Name - Age - Sex (Male|Female)
+
+    Trong hàm main() -> Khởi tạo 2 đối tượng có kiểu Animal bằng 2 constructors đã tạo
+    Cung cấp dữ liệu cho 2 đối tượng. Và in ra thông tin của 2 đối tượng
+
+Q2: Tạo 2 class đặt tên là: Dog, Cat kế thừa lại lớp Animal
+	- Dog có thêm thuộc tính: color (string); Phương thức: fetch()
+	- Cat có thêm thuộc tính: type (int); Phương thức: sleep()
+
+
+
+
+
+
+
+
+
+
+
+
+
